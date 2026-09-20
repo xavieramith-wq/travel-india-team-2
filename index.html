@@ -1,55 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Explore India</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel India</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Explore India!!</h1>
+    <!-- Header -->
+    <header class="header">
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Places</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+        <div class="logo">
+            <span class="logo-icon">🌄</span>
+            <span class="logo-text">Travel India</span>
+        </div>
 
-<section class="hero">
-    <h2>Discover Incredible India</h2>
-    <p>Experience culture, heritage and nature.</p>
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Travel Packages</a>
+            <a href="#">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
-    <button onclick="showMessage()">
-        Explore More
-    </button>
-</section>
+    </header>
 
-<section class="places">
 
-    <div class="card">
-        <h3>Taj Mahal</h3>
-        <p>Agra, Uttar Pradesh</p>
-    </div>
+    <!-- Hero -->
+    <section class="hero">
 
-    <div class="card">
-        <h3>Kerala Backwaters</h3>
-        <p>God's Own Country</p>
-    </div>
+        <div class="hero-content">
 
-    <div class="card">
-        <h3>Goa Beaches</h3>
-        <p>Sun, Sand and Sea</p>
-    </div>
+            <p class="hero-label">
+                EXPLORE • DISCOVER • EXPERIENCE
+            </p>
 
-</section>
+            <h1>
+                Welcome to
+                <span>Travel India</span>
+            </h1>
 
-<footer>
-    <p>© 2026 Explore India</p>
-</footer>
+            <p class="hero-description">
+                Discover the incredible beauty, rich culture and
+                unforgettable experiences that India has to offer.
+            </p>
 
-<script src="./scripts/script.js"></script>
+            <button id="exploreBtn" type="button">
+                Explore Now
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Travel India -->
+    <section class="why-india">
+
+        <h2>Why Travel India?</h2>
+
+        <div class="section-line"></div>
+
+        <div class="why-container">
+
+            <div class="why-card">
+
+                <div class="why-icon heritage-icon">
+                    🏛️
+                </div>
+
+                <h3>Rich Heritage</h3>
+
+                <p>
+                    Explore ancient temples,<br>
+                    forts and historical places.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon landscape-icon">
+                    🏔️
+                </div>
+
+                <h3>Diverse Landscapes</h3>
+
+                <p>
+                    From mountains to beaches,<br>
+                    India has it all.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon culture-icon">
+                    🎭
+                </div>
+
+                <h3>Vibrant Culture</h3>
+
+                <p>
+                    Experience festivals,<br>
+                    traditions and local cuisines.
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon experience-icon">
+                    📷
+                </div>
+
+                <h3>Memorable Experiences</h3>
+
+                <p>
+                    Create memories that<br>
+                    last a lifetime.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            🌄 Travel India
+        </div>
+
+        <p>
+            © 2026 Travel India. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
