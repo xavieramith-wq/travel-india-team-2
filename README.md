@@ -18,15 +18,25 @@ Contact form
 Basic JavaScript functionality
 Responsive UI
 Project Structure
+
 travel-india-team-2/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── contact.html
+
 ├── tajmahal.jpg
+
 ├── kerala.jpg
+
 ├── goa.jpeg
+
 └── README.md
+
 Team Roles
 
 Student 1 – Team Lead / Developer
